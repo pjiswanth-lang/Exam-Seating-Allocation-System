@@ -1,0 +1,105 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+header {
+    background: #173b70;
+    color: white;
+    text-align: center;
+    padding: 28px 15px;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+main {
+    max-width: 1000px;
+    width: 94%;
+    margin: 25px auto;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #00000012;
+}
+
+h2 {
+    color: #173b70;
+    margin-top: 0;
+}
+
+input {
+    padding: 11px;
+    margin: 5px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    background: #1769aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 11px 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #104c80;
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dbe2ea;
+}
+
+th {
+    background: #e4edf8;
+}
+
+#status, #searchResult {
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+footer {
+    background: #173b70;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    input {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
